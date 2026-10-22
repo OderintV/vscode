@@ -1,0 +1,34 @@
+abstraction is a concept in which complex details are hidden from the user.
+inheritance is a class aqquring the property of other classes, like animals and reptiles, birds, amphibians and mammals. 'is a'
+polymorphism
+
+encapsulation - attribution ccan be public or private
+public can be accessed by child 
+private can be acceesedf by parent
+association is based on 'has a' relationship
+variable - a named location used to store data in memory
+public - no underscore
+protected - _
+private - __
+
+methods - 
+constructor methods - special method that runs automatically when obj is created (__init__)
+    def __init__(self, [parameters])
+
+normal(instance) methods - works with specific object (instance) and can access instance using self
+    def greet(self, [parameters])
+
+class method (@classmethod) - method that dosent use object(self), and uses class. it can be called without creating an object.
+    def method_name(cls, parameters)
+
+    class School:
+    school_name = "JBCN High"
+    @classmethod
+    def change_school_name(cls, new_name)
+
+static method(@staticmethod) - method that dosent use object(self) or class
+    def school_info():
+        print("school name is JBCN")
+ 
+abstract method(@abstractmethod) - force subclass to have particular method 
+

@@ -1,0 +1,19 @@
+# Time complexity is a way to describe how the runtime of an algorithm increases as the size of the input increases.
+# big O notation
+
+# O(1) - constant time for example finding the first element in an array
+arr = [10, 20, 30]
+print(arr[0])  # Always 1 operation
+
+# O(log n) - logarithmic time - binary search
+
+# O(n) - linear time - looping through a list
+for num in arr:
+    print(num)  # One operation per item
+
+# O(n log n) - linearithmic time
+
+# O(n^2) - quadratic time
+for i in arr:
+    for j in arr:
+        print(i, j)  # n * n operations
